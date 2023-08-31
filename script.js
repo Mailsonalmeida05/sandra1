@@ -43,8 +43,6 @@ menuJson.map((item, index)=>{
         }, 200);
     });
 
-    
-    //document.querySelector('.menu-area').append(menuItem);
     c('.menu-area').append(menuItem);
     
 });

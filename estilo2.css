@@ -303,11 +303,6 @@ main {
 
 }
 
-.menu-area {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .menu-item {
     text-align: center;
     max-width:250px;
@@ -630,23 +625,11 @@ main {
     background-color:#35af4a;
 }
 
-@media (max-width:1000px) {
-  
-    .menu-area {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width:840px) {
  
     body {
         flex-direction: column;
     }
-
-    .menu-area {
-        display:block;
-    }
-
     .menu-item {
         max-width:100%;
     }
